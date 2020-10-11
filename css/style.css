@@ -2,187 +2,37 @@ body {
     color: #ffffff;
     margin: 0;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Poppins', sans-serif;
     background-color: #050801;
   }
 
-  .navbar {
-    padding: 50px 0px;
-  }
-  
-  .navbar-brand {
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-  
-  .nav-item {
-    padding: 0 18px;
-    position: relative
-  }
-  
-  .nav-link {
-    font-size: 1.2rem;
-    position: relative;
+  .top {
+    margin: 10% auto;
+    padding: 0;
   }
 
-  span {
-    text-decoration: underline;
-    color:  #11999E;
-  }
-  
-  h1 {
-    color: #ffffff;
-    font-size: 5.625rem;
-    margin: 50px auto 0 auto;
-    font-family: cursive;
-    animation: ease-out;
-  }
-
-  h1:hover {
-    animation: ease-in-out;
-    animation-duration: 3s;
-  }
-  
-  h2 {
-    color: #fff;
-    font-family: cursive;
-    font-size: 1.5rem;
-    font-weight: normal;
-    padding-bottom: 10px;
-  }
-
-  .mail-head {
-    padding-bottom: 0px;
-    margin: 0 auto 20px auto;
-  }
-
-  .mail {
-    padding-top: 0;
-    margin: 0px auto 30px auto;
-  }
-
-  .h2-colored {
-    color:   #30e3cb;
-    font-size: 2.5rem;
-  }
-  
-  h3 {
-    color: #fff;
-    font-family: cursive;
-  }
-
-  .h3-colored {
-    color:  #11cdd4;
-    font-size: 1.4rem;
-  }
-  
-  p {
-    line-height: 2;
-    font-size: 1.1rem;
-  }
-  
-  hr {
-    border: dotted  #11999E 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
-  }
-  
-  a{
+  .link {
     color:  #03e9f4;
-    font-family: cursive;
+    font-family: 'Poppins', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
   }
-
-  .blog {
-    color: #11999E;
-    font-family: cursive;
-    margin: 0;
-    text-decoration: none;
-  }
   
-  a:hover {
+  .link:hover {
     background: #03e9f4;
     color: #fff;
     box-shadow: 0 0 5px #03e9f4, 
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4;
-    text-transform: uppercase;
-    font-size: 2rem;
+                0 0 25px #03e9f4;
+    font-size: 1.2rem;
+    text-decoration: none;
 }
   
   .top-container {
     position: relative;
     padding-top: 100px;
+    text-align: center;
   }
-  
-  .pic {
-    width: 20%;
-    border-radius: 100%;
-  }
-
-  .middle-container {
-    margin: 10px 0;
-  }
-  
-  .bottom-container {
-    padding: 50px 0 20px;
-  }
-
-  .nav {
-    text-align: right;
-    margin: auto 50px auto auto;
-    font-size: 1.5rem;
-  }
-  
-  .skill-row {
-    width: 50%;
-    margin: 50px auto 100px auto;
-    text-align: left;
-  }
-  
-  .pro {
-    text-decoration: underline;
-  }
-
-  .software {
-    color: #03e9f4;
-  }
-  
-  .intro {
-    width: 60%;
-    margin: auto;
-  }
-  
-  .contact-message {
-    width: 40%;
-    margin: 40px auto 60px;
-  }
-  
-  .copyright {
-    color: #EAF6F6;
-    font-size: 0.75rem;
-    padding: 20px 0;
-  }
-  
-  
-  .code-img {
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-    border-radius: 100%;
-    background-color: #fff;
-  }
-  
-  .code-img-2 {
-    width: 25%;
-    float: right;
-    margin-left: 30px;
-    border-radius: 100%;
-    background-color: #fff;
-  }
-  
+   
   .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -193,7 +43,7 @@ body {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: cursive;
+    font-family: 'Poppins', sans-serif;
     color: #ffffff;
     font-size: 18px;
     padding: 10px 10px 10px 10px;
@@ -207,6 +57,6 @@ body {
     background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-    text-decoration: none;
+    color: #fff;
   }
   
